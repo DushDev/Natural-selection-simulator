@@ -1,4 +1,4 @@
-# Game developed with vanila js
+# Game developed with react + typescript
 
 That simulation of natural selection in worlds with different rules. You can change this rules in settings.js.
 

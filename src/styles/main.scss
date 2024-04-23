@@ -1,0 +1,50 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.controller {
+  flex: 1;
+  background-color: #ccc;
+  border-right: 1px solid #ddd;
+}
+
+.content {
+  flex: 3;
+  position: relative;
+}
+
+#myCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: scale(1);
+  transform-origin: top left;
+  object-fit: contain;
+  max-height: 100%;
+}
+
+.tab {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.record {
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid #555555;
+  border-radius: 10px;
+  // background-color: #c6c6c6;
+}

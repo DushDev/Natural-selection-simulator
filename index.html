@@ -1,47 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>game of life</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Vite + React + TS</title>
   </head>
   <body>
-    <div id="main-container">
-      <div id="content">
-        <canvas id="canvas" width="1800" height="960"></canvas>
-      </div>
-      <div id="sidebar">
-        <h1>Control Panel</h1>
-        <button id="add">spawn</button>
-        <button id="clear">clear</button>
-        <h3 id="updSpeedText">update speed:</h3>
-        <input
-          type="range"
-          name="speed"
-          id="updSpeedRange"
-          min="1"
-          max="251"
-          step="5"
-        />
-        <h3 id="mutateText">mutationsRate:</h3>
-        <input
-          type="range"
-          name="speed"
-          id="mutateRange"
-          min="0"
-          max="1"
-          step="0.01"
-        />
-        <!-- <h3 id="population">Population:</h3> -->
-        <h2>View modes</h2>
-        <button id="view-normal">Normal</button>
-        <button id="view-energy">Energy</button>
-        <button id="view-colors">Colors</button>
-      </div>
-    </div>
-
-    <!-- <script src="world.js"></script> -->
-    <script type="module" src="index.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
